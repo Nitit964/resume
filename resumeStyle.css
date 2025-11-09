@@ -1,0 +1,134 @@
+.page-wrapper {
+  margin: auto;
+  display: flex;
+  width: 21cm;
+  padding-bottom: 40px;
+}
+
+.header-box {
+  display: flex;
+  padding: 16px;
+  background-color: #141414;
+
+  .avatar-box {
+    width: 50%;
+    display: flex;
+
+    .avater {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: 24px;
+
+    }
+  }
+
+  .name-box {
+    width: 50%;
+    color: white;
+
+    .name-text {
+      font-family: "Sarabun", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 8px;
+    }
+  }
+}
+
+
+.content-box {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.left-box {
+  padding: 40px;
+  width: 50%;
+  background-color: #292929;
+  color: white;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.right-box {
+  padding: 40px;
+  width: 50%;
+  background-color: #dedede;
+}
+
+.activity-wrapper {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #f1f1f1;
+
+  .activity-box {
+    display: flex;
+    padding-top: 8px;
+
+    .activity-img {
+      min-width: 144px;
+      width: 144px;
+      height: 176px;
+      margin-right: 40px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.topic-text {
+  font-size: 20px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.subtopic-text {
+  font-size: 18px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.content-text {
+  font-size: 16px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+.certificate-wrapper {
+  padding: 40px;
+  background-color: #f1f1f1;
+
+  .certificate-box {
+    display: flex;
+    justify-content: space-between;
+
+    .certificate {
+      width: auto;
+      height: 316px;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+
+
+  .content-text2 {
+    padding-bottom: 16px;
+  }
+}
