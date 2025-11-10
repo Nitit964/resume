@@ -113,14 +113,17 @@
 .certificate-wrapper {
   padding: 40px;
   background-color: #f1f1f1;
+  width: 21cm;
 
   .certificate-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    padding-bottom: 32px;
 
     .certificate {
       width: auto;
-      height: 316px;
+      height: 275px;
+      
     }
 
     h3 {
